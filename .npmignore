@@ -1,8 +1,0 @@
-examples/
-test/
-Makefile
-.travis.yml
-.jshintrc
-.bithoundrc
-.npmignore
-.idea/
