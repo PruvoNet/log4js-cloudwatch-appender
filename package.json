@@ -1,14 +1,19 @@
 {
   "name": "log4js-cloudwatch-appender",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "log4js aws cloudwatch appender",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "make test"
+    "lint": "jshint ./test ./lib/index.js",
+    "test": "npm run lint && NODE_ENV=test mocha -b --reporter spec",
+    "cover": "NODE_ENV=test istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/regevbr/log4js-cloudwatch-appender.git"
+    "url": "git+https://github.com/PruvoNet/log4js-cloudwatch-appender.git"
   },
   "keywords": [
     "aws",
@@ -31,23 +36,21 @@
   ],
   "author": "Regev Brody <regevbr@gmail.com>",
   "engines": {
-    "node": ">=6.11.3"
+    "node": ">=18"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/regevbr/log4js-cloudwatch-appender/issues"
+    "url": "https://github.com/PruvoNet/log4js-cloudwatch-appender/issues"
   },
-  "homepage": "https://github.com/regevbr/log4js-cloudwatch-appender#readme",
+  "homepage": "https://github.com/PruvoNet/log4js-cloudwatch-appender#readme",
   "dependencies": {
     "lawgs": "^1.0.4"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
     "expect.js": "^0.3.1",
     "istanbul": "^0.4.5",
     "jshint": "^2.9.5",
     "mocha": "^4.0.1",
-    "mocha-lcov-reporter": "^1.3.0",
     "sandboxed-module": "^2.0.3"
   }
 }

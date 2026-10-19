@@ -1,12 +1,5 @@
-[![Build Status](https://travis-ci.org/regevbr/log4js-cloudwatch-appender.svg?branch=master)](https://travis-ci.org/regevbr/log4js-cloudwatch-appender)
-[![Coverage Status](https://coveralls.io/repos/github/regevbr/log4js-cloudwatch-appender/badge.svg?branch=master)](https://coveralls.io/github/regevbr/log4js-cloudwatch-appender?branch=master)
-[![bitHound Overall Score](https://www.bithound.io/github/regevbr/log4js-cloudwatch-appender/badges/score.svg)](https://www.bithound.io/github/regevbr/log4js-cloudwatch-appender)
-[![Known Vulnerabilities](https://snyk.io/test/github/regevbr/log4js-cloudwatch-appender/badge.svg)](https://snyk.io/test/github/regevbr/log4js-cloudwatch-appender)
-[![dependencies Status](https://david-dm.org/regevbr/log4js-cloudwatch-appender/status.svg)](https://david-dm.org/regevbr/log4js-cloudwatch-appender)
-[![devDependencies Status](https://david-dm.org/regevbr/log4js-cloudwatch-appender/dev-status.svg)](https://david-dm.org/regevbr/log4js-cloudwatch-appender?type=dev)
-[![npm](https://img.shields.io/npm/dt/log4js-cloudwatch-appender.svg)](https://github.com/regevbr/log4js-cloudwatch-appender)
-[![HitCount](http://hits.dwyl.io/regevbr/log4js-cloudwatch-appender.svg)](http://hits.dwyl.io/regevbr/log4js-cloudwatch-appender)
-
+[![CI](https://github.com/PruvoNet/log4js-cloudwatch-appender/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/PruvoNet/log4js-cloudwatch-appender/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/log4js-cloudwatch-appender.svg)](https://www.npmjs.com/package/log4js-cloudwatch-appender)
 
 [![https://nodei.co/npm/log4js-cloudwatch-appender.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/log4js-cloudwatch-appender.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/log4js-cloudwatch-appender)
 
