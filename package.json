@@ -50,7 +50,7 @@
     "expect.js": "^0.3.1",
     "istanbul": "^0.4.5",
     "jshint": "^2.9.5",
-    "mocha": "^4.0.1",
+    "mocha": "^12.0.3",
     "sandboxed-module": "^2.0.3"
   }
 }
